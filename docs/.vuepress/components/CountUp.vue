@@ -1,6 +1,4 @@
 
-import { ClientRequest } from 'http';
-
 <template>
   <div>
     <ClientOnly>
@@ -35,20 +33,22 @@ export default {
       default: 0,
     },
   },
-  mounted: {},
+  mounted() {
+    this.init();
+  },
   data() {
-    return{
-          counter: null
-    }
+    return {
+      counter: null,
+    };
   },
   methods: {
     init() {
-      import("countup.js").then((module) => {
+      import("countup.js").then(module => {
         this.$nextTick(() => {
           this.counter = new module.CountUp(this.$refs.countUp, this.endVal, {
             startVal: this.startVal,
             decimalPlaces: this.decimalPlaces,
-            duration: this.duration,
+            duration: this.duration
           });
 
           setTimeout(() => {
