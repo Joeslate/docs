@@ -1,6 +1,8 @@
 ---
 sidebar: auto
 ---
-## 关于我2
+## 留言板
 
 热爱生活，喜欢睡觉
+
+<Vssue :options="{locale: 'zh'}" />
