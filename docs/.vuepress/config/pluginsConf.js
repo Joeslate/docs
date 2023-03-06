@@ -1,4 +1,6 @@
-module.exports= {
+const secret = require("./secret")
+
+module.exports = {
     '@vuepress/pwa': {
         serviceWorker: true,
         updatePopup: {
@@ -12,11 +14,11 @@ module.exports= {
         // 其他的 Vssue 配置
         owner: 'Joeslate',
         repo: 'docs',
-        clientId: '8c016835dd53936fc57a',
-        clientSecret: 'd0f1b0afc388cda9e5a77fc994c28250e18d2a3b',
+        clientId: secret.clientId,
+        clientSecret: secret.clientSecret,
     },
     '@vuepress/back-to-top': true,
     '@vuepress/google-analytics': {
-        'ga': 'G-BJEVFQY9S4'
+        'ga': secret.ga,
     }
 }
