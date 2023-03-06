@@ -12,7 +12,6 @@ module.exports = {
     themeConfig: {
         logo: '/assets/img/logo.png',
         lastUpdated: '更新时间',
-
         nav: navConf,
         sidebar:sidebarConf
     }

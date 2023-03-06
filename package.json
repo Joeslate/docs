@@ -11,11 +11,13 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "bash": "bash cname.sh"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "countup.js": "^2.5.0",
     "vue-template-compiler": "^2.7.14"
   }
 }
