@@ -26,3 +26,5 @@ title: 关于我
 ## 一级标题2
 
 追加 Travis CI 自动化部署
+
+![favicon](/favicon.ico)
