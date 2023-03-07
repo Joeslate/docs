@@ -1,23 +1,24 @@
 ---
-# home: true
-heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+sidebar: auto
+title: Hello World
+
 ---
+### 欢迎访问本站点。
 
-# Hello VuePress
+#### 希望你今天开心。明天也是。
+
+### 本站使用细则：
+  - 左边总纲，中间内容区，右边子纲
 
 
-# PWA
+<!--title content-->
+<!-- <Boxx type='tip'/> -->
 
-为了演示弹窗效果
+-
+
+-
+-
+
+[开源中国Vuepress博客搭建教程](https://my.oschina.net/u/5655992/blog/5503159) 
+
+
