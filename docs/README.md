@@ -7,17 +7,7 @@ title: Hello World
 
 #### 希望你今天开心。明天也是。
 
-### 本站使用细则：
-  - 左边总纲，中间内容区，右边子纲
 
-
-<!--title content-->
-<!-- <Boxx type='tip'/> -->
-
--
-
--
--
 
 [开源中国Vuepress博客搭建教程](https://my.oschina.net/u/5655992/blog/5503159) 
 
